@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "TricyFare",
+    "slug": "TricyFare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FCEFC2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FCEFC2"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "package": "com.tricyfare.roxas"
+    }
+  }
+}
